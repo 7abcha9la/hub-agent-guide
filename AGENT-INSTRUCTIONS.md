@@ -51,7 +51,7 @@ The intended structure under an ISIMS root:
 - PIIM — empty placeholder until user supplies content.
 - DIIM — empty placeholder.
 - PIINFO — empty placeholder.
-- DIINFO — represents local source folder `/Users/7abcha9la/Documents/DIINFO`; later the user will relate Google Classroom, Google Drive and MEGA sources.
+- DIINFO — represents local source folder `the user's local Documents/DIINFO folder`; later the user will relate Google Classroom, Google Drive and MEGA sources.
 - TIINFO — future academic year; empty placeholder.
 - projects — with a folder for each academic year.
 - learning-platform — separate planning area.
@@ -67,9 +67,9 @@ First create a place for brainstorming with the user and multiple agents, altern
 ### 5. Local Documents projects, training and experiments
 
 The user has identified these local sources for later inventory:
-- `/Users/7abcha9la/Documents/OpenSourceBusinessLab`: open-source apps/tools to study business logic, architecture and possible reuse, subject to license review.
-- `/Users/7abcha9la/Documents/RAISE2026_Student_Setup` and `/Users/7abcha9la/Documents/raise2026-student`: ROS 2 / robotics training.
-- `/Users/7abcha9la/Documents/AnisAmmar`: agriculture training.
+- `the user's local OpenSourceBusinessLab folder`: open-source apps/tools to study business logic, architecture and possible reuse, subject to license review.
+- `the user's local RAISE2026_Student_Setup folder` and `the user's local raise2026-student folder`: ROS 2 / robotics training.
+- `the user's local AnisAmmar folder`: agriculture training.
 - Other project/formation folders and individual test/draft files will be supplied later.
 
 Keep project-specific experiments and drafts associated with their tool or project and document status. Inventory first; do not move/copy local folders without explicit approval. Check licenses before reusing open-source code.
