@@ -115,7 +115,7 @@ ISIMS/
   PIIM/             # initially empty; owner supplies content later
   DIIM/             # initially empty
   PIINFO/           # initially empty
-  DIINFO/           # represents /Users/7abcha9la/Documents/DIINFO
+  DIINFO/           # represents the user's local Documents/DIINFO folder
   TIINFO/           # future academic year; initially empty
   projects/
     <academic-year>/
@@ -147,9 +147,9 @@ First step is collaborative brainstorming among the owner and multiple agents, f
 ## 7. Local projects, tools and training
 
 The user has identified local Documents sources to inventory and later integrate:
-- `/Users/7abcha9la/Documents/OpenSourceBusinessLab`: open-source applications/tools to study business logic, architecture and possible reuse where licenses permit.
-- `/Users/7abcha9la/Documents/RAISE2026_Student_Setup` and `/Users/7abcha9la/Documents/raise2026-student`: ROS 2 / robotics training.
-- `/Users/7abcha9la/Documents/AnisAmmar`: agriculture training.
+- `the user's local OpenSourceBusinessLab folder`: open-source applications/tools to study business logic, architecture and possible reuse where licenses permit.
+- `the user's local RAISE2026_Student_Setup folder` and `the user's local raise2026-student folder`: ROS 2 / robotics training.
+- `the user's local AnisAmmar folder`: agriculture training.
 - Other project folders, formations, test files and drafts will be identified by the owner later.
 
 Use a source inventory and license review before copying or reusing code. Keep experiments and app/agent/tool drafts associated with the relevant tool or project, with a clear status and cleanup decision.
