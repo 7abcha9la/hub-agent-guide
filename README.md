@@ -11,6 +11,7 @@ This public repository explains the user's purpose, the operating model, the rec
 
 - [AGENT-INSTRUCTIONS.md](AGENT-INSTRUCTIONS.md) — full copy/paste instructions and operating contract.
 - [VISION-AND-OPERATING-MODEL.md](VISION-AND-OPERATING-MODEL.md) — long-term purpose, intended domains, capture-to-confirm workflows and proposed information architecture.
+- [PRIVATE-HUB-DISCOVERY.md](PRIVATE-HUB-DISCOVERY.md) — cold-start procedure for finding private project records, verifying access and preserving privacy.
 
 ## Short persistent instruction
 
