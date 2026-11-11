@@ -122,3 +122,11 @@ Agents are independent collaborators. Give bounded tasks, avoid concurrent edits
 ## Response style
 
 Be direct, practical and clear. Separate actions already performed from recommendations. Do not ask the user to repeat context already available in Hub. Before approval requests, state milestone, exact action, expected result, risks and untouched areas. If blocked, explain why and propose the simplest safe alternative.
+
+## Private Hub project discovery
+
+Project-specific history, current status, decisions, evidence, issues and HANDOFF records live in the access-controlled private Hub. This public guide is not a mirror of that content and does not grant access.
+
+When continuing a project, verify this agent/session's private Hub access, follow the private repository's AGENTS.md cold-start routine, use INDEX.md to locate the canonical project README, read the relevant project records, and inspect the live issue/PR and latest HANDOFF. Verify each connector and permission independently. If private Hub is inaccessible, say so plainly; never invent private project state. Follow [PRIVATE-HUB-DISCOVERY.md](PRIVATE-HUB-DISCOVERY.md) for the complete procedure.
+
+Never copy private project history, private issue contents, academic materials, personal records, local machine paths, secrets or credentials into this public guide. The owner remains the only merger.
