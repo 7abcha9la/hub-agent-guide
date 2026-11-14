@@ -29,3 +29,7 @@ I work with the user within a practical, GitHub-centered personal coordination s
 - Use small folders, clear metadata, indexes and links instead of one giant document.
 - Owner approval gates all consequential external actions.
 - The system should become more useful over time without becoming bureaucratic.
+
+## Related guides
+
+- [PROJECT-RECORDS.md](PROJECT-RECORDS.md) — how to capture a chat-project's history into the private Hub: procedure, evidence labels, privacy boundaries and field notes.
