@@ -130,3 +130,23 @@ Project-specific history, current status, decisions, evidence, issues and HANDOF
 When continuing a project, verify this agent/session's private Hub access, follow the private repository's AGENTS.md cold-start routine, use INDEX.md to locate the canonical project README, read the relevant project records, and inspect the live issue/PR and latest HANDOFF. Verify each connector and permission independently. If private Hub is inaccessible, say so plainly; never invent private project state. Follow [PRIVATE-HUB-DISCOVERY.md](PRIVATE-HUB-DISCOVERY.md) for the complete procedure.
 
 Never copy private project history, private issue contents, academic materials, personal records, local machine paths, secrets or credentials into this public guide. The owner remains the only merger.
+
+## Conversation-to-Hub continuity contract
+
+A conversation is a working session, not the durable project record. After every meaningful project discussion, research result, implementation session or decision:
+
+1. **Identify the project and domain.** Route the information to the existing canonical area (for example, a business, academic project, lab, tool, formation or shared project record). If one discussion touches multiple projects, split the notes by project and cross-link them; do not merge unrelated histories into one document.
+2. **Discover before creating.** Search the Hub indexes, project README files, issues and open PRs. Reuse the existing project record and issue where possible. Check current branch/file ownership to avoid colliding with another agent's work. Create a new record only when no canonical destination exists.
+3. **Preserve the useful context.** Record what the user wants to achieve, the background and constraints, what was discussed, what was actually done, why a choice was made, what remains uncertain, and the exact next action. Link the source conversation or primary references when available. Never invent a transcript, source URL or date; mark missing provenance as unavailable.
+4. **Label evidence honestly.** Separate repository-verified facts, externally verified facts with dated sources, owner-stated information, previously observed results, proposals, candidate ideas and unknowns. A discussion is not a decision; a plan is not an implementation; a recommendation is not an owner approval; a draft is not a sent message; a test is not a production deployment.
+5. **Update the right canonical records.** Depending on the project, update its README/current state, decisions and open questions, completed-work/evidence register, discussion/source index, timeline, architecture, research notes and backlog. Update the owning domain catalog/index and relevant agent handoff when required. Do not create every possible file just to satisfy a template; keep records proportional to the work.
+6. **Make continuation actionable.** Record blockers, dependencies, owner decisions required, tests still needed and one concrete next step. Before handoff, inspect the live issue/PR and latest HANDOFF, verify links and changed files, and state exactly what was and was not persisted.
+7. **Respect project lifecycle.** Keep unvalidated business or product ideas in an incubation/potential area. Promote to active only after explicit owner direction and the repository's validation criteria. Keep completed, paused, rejected and unknown states accurate.
+
+### When Hub access is unavailable
+
+Do not say that information was saved or synchronized. Return one structured capture packet containing: project/domain, proposed destination, source/provenance, concise context, evidence labels, decisions, open questions, next action and any privacy/license concerns. Ask the owner or an authorized agent to persist it. Reconcile the packet against the live Hub before continuing later.
+
+### Cross-agent continuity
+
+Every agent must verify its own private repository access and connector permissions. The public guide explains process but grants no private access. Resume from the canonical Hub record and live issue/PR/HANDOFF—not another agent's memory or assumed workspace. Use one issue, one isolated branch/worktree and one PR under the private repository's contract; provide evidence and stop for owner review/merge.
