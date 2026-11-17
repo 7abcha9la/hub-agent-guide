@@ -40,3 +40,22 @@ Observed on one web project. Generic, but re-verify for yours.
 - Cloud-synced folders plus framework build caches can cause dev-server crash loops. Clear the cache or keep projects outside synced folders.
 - When several AI-generated variants of one project exist, choose by deployment-readiness evidence (config, working functions, real build output), then port specific parts.
 - Review config flags that silence checks (for example ignoring build type errors) before adding features.
+
+
+## Operational continuity: preserve the path, not only the outcome
+
+For projects involving a runtime, integration, agent, deployment or multi-step experiment, the record must preserve the sequence that led to the current state. A new agent should be able to answer: what was attempted, what happened, what changed, what failed, what was fixed, what was approved, and exactly where work stopped.
+
+Add or extend a chronological action/evidence ledger with:
+- date (and timezone where relevant), source conversation title/link, agent and environment/version;
+- the action or command, but only when the exact command is available and safe to record;
+- observed output/result and evidence link; redact secrets and personal identifiers;
+- failures, error messages, rejected approaches, workarounds and fixes;
+- test IDs, expected result, actual result, pass/fail/blocked status, and what the test does **not** prove;
+- owner approvals, restrictions, no-go boundaries and changes that were explicitly not authorized;
+- incident symptoms, diagnostic evidence, confirmed cause versus hypothesis, and remediation approval status;
+- last-known-good state, exact stop point, remaining uncertainty and the next **authorized** action.
+
+Do not turn an assistant suggestion into an owner decision, a plan into completed work, a single passing test into a general guarantee, or a historical environment snapshot into a current health claim. If only a memory summary is available, mark the record as summary-level reconstruction; do not claim complete message coverage or invent transcript links, command output, timestamps or missing fixes. When original sources become available, append the source-level evidence and correct only the affected claims.
+
+A useful handoff ends with three separate lists: **done and evidenced**, **not done / unproven**, and **next authorized step**. Future execution that requires a new approval must remain a proposed or blocked item until the owner explicitly approves it.
